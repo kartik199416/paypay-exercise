@@ -46,4 +46,11 @@ public class TestQueueImpl {
         assertEquals(queue.head(), valueTwo);
     }
 
+    @Test
+    public void testDequeueEmpty() {
+      Queue<Integer> queue = new QueueImpl<Integer>();
+      queue = queue.deQueue();
+      assertTrue(queue.isEmpty());
+    }
+
 }

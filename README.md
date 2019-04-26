@@ -18,7 +18,7 @@ The system needs to:
 
 ### Solution
 
-Please see attached diagram for reference.
+![diagram](diagram.jpg)
 
 1. The customer app implements required user action event API.
 2. User interaction is recorded through event API and handled by capture server.
